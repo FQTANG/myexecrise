@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+char * char_get(char * st,int num);
+int main(void)
+{   
+    int num=0;
+	scanf("%d",&num);
+	char array_char[num];
+	char_get(array_char,num);
+	puts(array_char);
+	return 0;
+}
+char * char_get(char * st,int num)
+{
+	int i=0,i_1=0;
+	char ch;
+	char * ret_val;
+	while(getchar()!='\n');
+	while((ch=getchar())!=EOF&&i_1<=num&&i<=num)
+	{
+		if(ch==' ')
+		{
+			if(i_1==num)
+			{
+				i_1++;
+			}
+			continue;
+		}
+		else if(ch=='\n')
+			break;
+		else
+		{*(st+i)=ch;
+		     i++;
+			 i_1=num;
+		}	 
+	}
+	ret_val=st;
+	
+	return ret_val;
+}

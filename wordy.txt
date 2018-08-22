@@ -1,0 +1,11 @@
+1 sandy leon  198 42 14 20
+2 mitch moreland 310 81 34 58
+3 eduardo nunez 383 101 13 35
+4 xander bogaerts 375 103 40 72
+5 refael devers 378 92 31 55
+6 andew benintendi 499 130 60 70
+7 jackie bradley 348 75 36 46
+8 mookie betts 390 137 57 62
+9 j.d martinez 431 143 48 104
+10 brock holt  241 63 27 39
+
